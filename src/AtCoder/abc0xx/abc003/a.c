@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int run(int n)
+int func(int n)
 {
     int tmp = 0;
 
@@ -15,10 +15,10 @@ int run(int n)
 
 int main()
 {
-    printf("%d\n", run(6));
+    printf("%d\n", func(6));
     //=> 35000
 
-    printf("%d\n", run(91));
+    printf("%d\n", func(91));
     //=> 460000
 
     return 0;
