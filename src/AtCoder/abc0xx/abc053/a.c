@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-char* run(int n)
+char* func(int n)
 {
     if (n < 1200) {
         return "ABC";
@@ -13,10 +13,10 @@ char* run(int n)
 
 int main()
 {
-    printf("%s\n", run(1000));
+    printf("%s\n", func(1000));
     //=> ABC
 
-    printf("%s\n", run(2000));
+    printf("%s\n", func(2000));
     //=> ARC
 
     return 0;
