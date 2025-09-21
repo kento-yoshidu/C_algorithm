@@ -28,10 +28,12 @@ int main(void) {
 
     size_t result = run(5, 60, 70, w);
     printf("%zu\n", result);
-    //=> 3
+    //=> 2
 
     long w1[] = {120, -10, -20, -30, 70};
     size_t result2 = run(5, 50, 100, w1);
     printf("%zu\n", result2);
+    //=> 2
+
     return 0;
 }
