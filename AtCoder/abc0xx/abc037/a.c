@@ -1,8 +1,9 @@
 // https://atcoder.jp/contests/abc037/tasks/abc037_a
 
 #include <stdio.h>
+#include "../../../util/util.h"
 
-#define MIN(a, b) ((a) < (b) ? (a) : (b))
+// #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
 int func(int a, int b, int c) {
     return c / MIN(a, b);
